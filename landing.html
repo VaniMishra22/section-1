@@ -53,6 +53,41 @@
             padding: 10px;
             box-sizing: border-box;
         }
+
+        .form.btn{
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+
+        }
+
+        .footer-container{
+            border: 2px solid red;
+            margin: 0 200px;
+            padding: 50px 0;
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        footer{
+            background-color: #555;
+        }
+
+        .social-link{
+            color: white;
+            display: block;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .social-link:hover{
+            color: #243af8;
+        }
     </style>
 </head>
 <body>
@@ -102,5 +137,22 @@
             </div>
         
     </section>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>Website Name</h3>
+                <p>&copy; Copyright2024</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias ullam nobis iste, voluptas possimus officiis veritatis! Non laboriosam voluptas tempora sed dolor quia sunt totam architecto! Aliquid, distinctio qui.</p>
+            </div>
+            <div>
+                <h4>Important Links</h4>
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-square-x-twitter"></i>Twitter</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i>Linkdin</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-github"></i>Github</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
